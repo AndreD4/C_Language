@@ -1,1 +1,2 @@
+C:\Users\andre\Workspaces\FirstProgram\CompileErrors\main.cpp
 C:\Users\andre\Workspaces\FirstProgram\FirstBuild\main.cpp
