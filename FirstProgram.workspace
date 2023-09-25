@@ -3,7 +3,8 @@
   <Project Name="FirstBuild" Path="FirstBuild/FirstBuild.project" Active="No"/>
   <Project Name="CompileErrors" Path="CompileErrors/CompileErrors.project" Active="No"/>
   <Project Name="CompilerWarnings" Path="CompilerWarnings/CompilerWarnings.project" Active="No"/>
-  <Project Name="LinkerError" Path="LinkerError/LinkerError.project" Active="Yes"/>
+  <Project Name="LinkerError" Path="LinkerError/LinkerError.project" Active="No"/>
+  <Project Name="Challenge" Path="Challenge/Challenge.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -11,6 +12,7 @@
       <Project Name="CompileErrors" ConfigName="Debug"/>
       <Project Name="CompilerWarnings" ConfigName="Debug"/>
       <Project Name="LinkerError" ConfigName="Debug"/>
+      <Project Name="Challenge" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -18,6 +20,7 @@
       <Project Name="CompileErrors" ConfigName="Release"/>
       <Project Name="CompilerWarnings" ConfigName="Release"/>
       <Project Name="LinkerError" ConfigName="Release"/>
+      <Project Name="Challenge" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
