@@ -3,7 +3,9 @@
 
  Complier Errors
 
- Compiler warnings
+ Compiler Warnings
+
+ Linker Errors
  
 # Compiler Errors
 
@@ -31,4 +33,10 @@ int miles_driven;
   std::cout << miles_driven:
 
  * Warning: 'miles_driven' is used uninitialized ...
+
+# linker Errors
+
+* The linker is having trouble linking all the objects files together to create an executable.
+
+* Usually there is a library or object file that is missing.
   
