@@ -6,6 +6,10 @@
  Compiler Warnings
 
  Linker Errors
+
+ Runtime Errors
+
+ Logic Errors
  
 # Compiler Errors
 
