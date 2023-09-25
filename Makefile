@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ CompilerWarnings - Debug ]----------"
-	@cd "CompilerWarnings" && "$(MAKE)" -f  "CompilerWarnings.mk"
+	@echo "----------Building project:[ LinkerError - Debug ]----------"
+	@cd "LinkerError" && "$(MAKE)" -f  "LinkerError.mk"
 clean:
-	@echo "----------Cleaning project:[ CompilerWarnings - Debug ]----------"
-	@cd "CompilerWarnings" && "$(MAKE)" -f  "CompilerWarnings.mk" clean
+	@echo "----------Cleaning project:[ LinkerError - Debug ]----------"
+	@cd "LinkerError" && "$(MAKE)" -f  "LinkerError.mk" clean
