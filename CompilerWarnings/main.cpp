@@ -2,6 +2,7 @@
 
 int main()
 {
-    std::cout << "hello world you small thing" << std::endl;
+    int favourite_number;
+    std::cout << favourite_number << std::endl;
     return 0;
 }
