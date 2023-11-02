@@ -17,13 +17,13 @@
 
 * Syntax errors - something wrong with the structure
 
-// std::cout << " Errors << std::endl;
+      // std::cout << " Errors << std::endl;
 
-return 0
+      return 0
 
 * Semantic errors - something wrong with the meaning
 
-// a + b    when it doesn't make sense to add (a) and (b).
+      // a + b    when it doesn't make sense to add (a) and (b).
 
 # Complier Warnings 
 Do NOT ignore them!
@@ -32,9 +32,9 @@ Do NOT ignore them!
 
 * It's only a warning because the compiler is still able to generate the correct machine code.
 
-int miles_driven;
+      int miles_driven;
 
-  std::cout << miles_driven:
+        std::cout << miles_driven:
 
  * Warning: 'miles_driven' is used uninitialized ...
 
@@ -67,12 +67,12 @@ Exception Handling can help with runtime errors.
 
 Suppose we have a program that determines if a person can vote in an election and you must be 18 or older to vote.
 
-  if (age > 18)
+     if (age > 18)
   
-  {
-    std::cout << "yes, you can vote!";
+    {
+      std::cout << "yes, you can vote!";
      
-  }
+    }
 
 
   TEST YOUR CODE!!!!!!!!!!!!!!
